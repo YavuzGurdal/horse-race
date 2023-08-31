@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Horse Racing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Horse Racing</h1>
+
+    <div id="race-track">
+        <img src="horse1.gif" class="horse" id="horse1">
+        <img src="horse2.gif" class="horse" id="horse2">
+        <img src="horse3.gif" class="horse" id="horse3">
+        <div id="winnerMessage"></div>
+    </div>
+
+    <div class="button-container">
+        <button class="startButton" id="startButton" onclick="startRace()">Start Race</button>
+        <button class="pauseButton" id="pauseButton" onclick="pauseRace()" disabled>Pause Race</button>
+        <button class="resumeButton" id="resumeButton" onclick="resumeRace()" disabled>Resume Race</button>
+        <button class="resetButton" id="resetButton" onclick="resetRace()" disabled>New Race</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
